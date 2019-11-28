@@ -17,6 +17,7 @@
 
 .homeHero__text {
     margin: auto auto;
+
     h1 {
         @include textshadow;
         color: white;
