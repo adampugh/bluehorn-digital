@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import LakeGroup from '../../../static/assets/lake3.jpg';
+import DiageoLogo from '../../../static/assets/projects/diageologo.jpg'
+import JWLogo from '../../../static/assets/projects/jwlogo.jpg'
+import LockieLogo from '../../../static/assets/projects/lockielogo.jpg'
 
 class HomeClients extends Component {
     render() {
@@ -10,47 +12,47 @@ class HomeClients extends Component {
                 <div className="container">
                     <hr />
                     <h1 className="title">Client Feedback</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem. Unde officia rerum modi quaerat vel libero sunt. Commodi, ut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ducimus.</p>
+                    <p>We work closely with companies to learn their industry and product so that we can create the perfect strategy or design. We are focused to ensure complete satisfaction of our clientele on the work we produce - check out what people say about us below!</p>
                     <div className="homeClients__grid">
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <img src={LakeGroup} alt="first client" />
+                                    <img src={JWLogo} alt="first client" />
                                     <div className="homeClients__grid__client__info__text">
-                                        <h3 className="subtitle">Thomas Moville</h3>
+                                        <h3 className="subtitle">Tom Moville</h3>
                                         <p>BD Manager, JW Products</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                “Bluehorn have been our marketing agency for almost 2 years now and they continue to deliver results for us! Highly recommend their work and services”
+                                “I’ve worked with Bluehorn on several projects over the years and the end results have always been on point. As well as being an expert in the field, they are astute at understanding a business, its market and its customers, in order to deliver ROI across the board.”
                                 </p>
                             </div>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <img src={LakeGroup} alt="second client" />
+                                    <img src={LockieLogo} alt="second client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Bob Pooley</h3>
                                         <p>MD, Lockie Limited</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                “Bluehorn helped us to grow our digital presence and create more connectivity with our customers. They understand our company inside out and this has achieved fantastic results for us.”
+                                “Bluehorn has been responsible for the production and full optimisation of our Groups websites. Their depth of understanding of our markets, products and customers has been demonstrated by the ongoing improved performance of our websites, which has been verified by increased sales achieved.”
                                 </p>
                             </div>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                             <div className="homeClients__grid__client">
                                 <div className="homeClients__grid__client__info">
-                                    <img src={LakeGroup} alt="third client" />
+                                    <img src={DiageoLogo} alt="third client" />
                                     <div className="homeClients__grid__client__info__text">
                                         <h3 className="subtitle">Eddie Simpkins</h3>
                                         <p>NA Executive, Diageo</p>
                                     </div>
                                 </div>
                                 <p className="homeCLients__grid__client__quote">
-                                    “Excellent work on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign!”
+                                “Excellent working with BH on our Metro Pubs brochure on behalf of Green King – exactly what we needed for our activation campaign. They always deliver top-notch design work for any style of campaign and are very easy to work with in order to meet project delivery schedules - highly recommend.”
                                 </p>
                             </div>
                         </ScrollAnimation>

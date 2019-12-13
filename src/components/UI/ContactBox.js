@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ContactBox extends Component {
     render() {
         return (
-            <div className="contactBox">
+            <div className="contactBox" id="contact">
                 <div className="container">
                     <h1 className="title">Contact</h1>
                     <div className="contactBox__grid">

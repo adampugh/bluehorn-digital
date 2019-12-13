@@ -5,10 +5,6 @@ import Lockie from '../../../static/assets/projects/lockie2.jpg';
 import JW from '../../../static/assets/projects/jw2.jpg';
 import HH from '../../../static/assets/projects/hh2.jpg';
 
-import Car2 from '../../../static/assets/car2.jpg';
-import Lake from '../../../static/assets/lake2.jpg';
-import Shanghai from '../../../static/assets/shanghai.jpg';
-
 const ServicesAbout = () => (
     <section className="servicesAbout">
         <div className="container">
