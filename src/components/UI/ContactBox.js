@@ -31,7 +31,6 @@ class ContactBox extends Component {
 
     sendEmail = e => {
         e.preventDefault();
-        console.log(this.state);
         this.setState(emptyForm)
         emailjs.send('outlook','contact_email', this.state, process.env.GATSBY_USER_ID)
             .then((response) => { console.log('SUCCESS!', response.status, response.text)},
