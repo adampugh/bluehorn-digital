@@ -33,7 +33,9 @@ class ContactBox extends Component {
         e.preventDefault();
         this.setState(emptyForm)
         emailjs.send('outlook','contact_email', this.state, process.env.GATSBY_USER_ID)
-            .then((response) => { console.log('SUCCESS!', response.status, response.text)},
+            .then((response) => { 
+                console.log('SUCCESS!', response.status, response.text)
+            },
                 (err) => { console.log('FAILED...', err) });
     }
 
@@ -44,8 +46,8 @@ class ContactBox extends Component {
             <div className="contactBox" id="contact">
                 <div className="container">
                     <h1 className="title">Contact</h1>
-                    <div className="contactBox__grid">
-                        <form onSubmit={this.sendEmail}>
+                    <form onSubmit={this.sendEmail}>
+                        <div className="contactBox__grid">
                             <div className="contactBox__grid__col1">
                                 <input 
                                     className="bh-input"
@@ -100,8 +102,8 @@ class ContactBox extends Component {
                                     title={'Number'} />
                                 <button className="btn btn--blue" type="submit">Send</button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
                 <svg className="" id="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1416.99 174.01">
                     <defs></defs><title></title>
