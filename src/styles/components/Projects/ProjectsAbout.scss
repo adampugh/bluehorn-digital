@@ -53,19 +53,43 @@
 }
 
 #lockiegroup--hero {
-    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/warehouse.jpg') no-repeat center center fixed !important;
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/warehouse.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #jw--hero {
-    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/projects/jw.jpg') no-repeat center center fixed !important;
+    background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/projects/jw.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #hh--hero {
     background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/projects/hh-wave.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #islandescape--hero {
     background: linear-gradient(to bottom right, rgba(55, 55, 55, 0.4), rgba(225, 225, 225, 0.4)), url('../../static/assets/island.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .projectsAbout__project__wavyDiv--top {
